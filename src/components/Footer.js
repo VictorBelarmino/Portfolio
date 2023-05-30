@@ -22,8 +22,8 @@ export const Footer = () =>{
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt="Icon" /></a>
-                            <a href="#"><img src={navIcon2} alt="Icon" /></a>
+                            <a href='https://www.linkedin.com/in/victor-oliveira-belarmino-92138a197/'  target="_blank"><img src={navIcon1} alt=""/> </a>
+                            <a href='https://victorbelarmino.itch.io' target="_blank" ><img src={navIcon2} alt=""/> </a>
                             {/*<a href='#'><img src={navIcon3} alt="Icon"/> </a>*/}
                         </div>
                         <br></br>
