@@ -40,7 +40,7 @@ export const Banner = () => {
           setIsDeleting(true);
           setIndex(prevIndex => prevIndex - 1);
           setDelta(period);
-        } else if (isDeleting && updatedText === '') {
+        } else if (isDeleting && updatedText === 'G') {
           setIsDeleting(false);
           setLoopNum(loopNum + 1);
           setIndex(1);
