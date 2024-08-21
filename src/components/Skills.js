@@ -79,7 +79,7 @@ export const Skills = () => {
                                 <div className="item">   
                                     <img src={meter4} alt="Image"/>
                                     <h5>Agile methodologies</h5>
-                                    <h6>One year experience</h6>
+                                    <h6>Two years' experience</h6>
                                 </div>
                             </Carousel>
                         </div>
@@ -112,8 +112,8 @@ export const Skills = () => {
                                 </div>
                                 <div className="logo">   
                                     <img src={logo2} alt="Image"/>
-                                    <h5>Game Maker 2</h5>
-                                    <h6>One year experience</h6>
+                                    <h5>GameMaker Studio 2</h5>
+                                    <h6>Two years' experience</h6>
                                 </div>
                                 <div className="logo">   
                                     <img src={logo4} alt="Image" size/>

@@ -60,10 +60,10 @@ export const Projects = () => {
       link: "https://didiei3.itch.io/sandalations", 
     },
     {
-      title: "Jhow faz tudo (Game Jam)",
-      description: "2D artist",
+      title: "Minidungeon",
+      description: "Game Designer, game in progress.",
       imgUrl: personalProjImg5,
-      link: "https://agirgames.itch.io/jhow-faz-tudo", 
+      link: "", 
     },
     {
       title: "Raposo",

@@ -11,6 +11,8 @@ import processImg7 from "../assets/img/processes/precessImg7.png";
 import processImg8 from "../assets/img/processes/precessImg8.png";
 import processImg9 from "../assets/img/processes/precessImg9.png";
 import processImg10 from "../assets/img/processes/precessImg10.png";
+import processImg11 from "../assets/img/processes/precessImg11.png";
+import processImg12 from "../assets/img/processes/precessImg12.png";
 
 export const Processes = () =>{
     return (
@@ -26,7 +28,7 @@ export const Processes = () =>{
                     <Card border="primary" bg = 'dark' >
                         <Card.Img variant="top" src={processImg8} />
                         <Card.Body>
-                            <Card.Title>UI/UX Design</Card.Title>
+                            <Card.Title>UX/UI Design</Card.Title>
                             <Card.Text>
                                 Responsible for the first sketch of the UI focusing on elements 
                                 that are important for the player and a nice layout for easy 
@@ -73,6 +75,20 @@ export const Processes = () =>{
                         </Card.Body>
                     </Card>
                     <br></br>
+                    <Card border="primary" bg = 'dark' >
+                        <Card.Img variant="top" src={processImg12} />
+                        <Card.Body>
+                            <Card.Title>Using spreadsheets for organization</Card.Title>
+                            <Card.Text>
+                            I generally use spreadsheets to facilitate the organization of 
+                            games that involve a large amount of information, such as RPGs. 
+                            Furthermore, I use them to perform balancing outside of the engine. 
+                            Another application is the creation of text lists for the entire game, 
+                            especially when there is a need for translation into different languages.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <br></br>
                     <Card border="info" bg = 'dark' >
                         <Card.Img variant="top" src={processImg10} />
                         <Card.Body>
@@ -88,6 +104,18 @@ export const Processes = () =>{
                 </Col>
 
                 <Col>
+                <Card border="info" bg = 'dark' >
+                        <Card.Img variant="top" src={processImg11} />
+                        <Card.Body>
+                            <Card.Title>Figma for UX/UI and Level Design</Card.Title>
+                            <Card.Text>
+                            I recently started using figma to help me with my process, 
+                            the tool proved to be very practical, 
+                            especially for creating UX/UI and also level design with some plugins.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <br></br>
                     <Card border="danger" bg = 'dark' >
                         <Card.Img variant="top" src={processImg3} />
                         <Card.Body>
