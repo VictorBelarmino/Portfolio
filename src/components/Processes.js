@@ -25,6 +25,19 @@ export const Processes = () =>{
             
             <Row xs={1} md={2} className="g-4">
                 <Col>
+                <Card border="success" bg = 'dark' >
+                        <Card.Img variant="top" src={processImg4} />
+                        <Card.Body>
+                            <Card.Title>Game Design Document</Card.Title>
+                            <Card.Text>
+                            Serving as a guide for everyone involved in the project, the GDD 
+                            carries a very high importance for development, so its writing must 
+                            be easy for the reader to understand. (A gdd written in a way that 
+                            is not pleasing to the team is a useless gdd, because no one will want to read it).
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <br></br>
                     <Card border="primary" bg = 'dark' >
                         <Card.Img variant="top" src={processImg8} />
                         <Card.Body>
@@ -49,23 +62,12 @@ export const Processes = () =>{
                         </Card.Body>
                     </Card>
                     <br></br>
-                    <Card border="success" bg = 'dark' >
-                        <Card.Img variant="top" src={processImg4} />
-                        <Card.Body>
-                            <Card.Title>Game Design Document</Card.Title>
-                            <Card.Text>
-                            Serving as a guide for everyone involved in the project, the GDD 
-                            carries a very high importance for development, so its writing must 
-                            be easy for the reader to understand. (A gdd written in a way that 
-                            is not pleasing to the team is a useless gdd, because no one will want to read it).
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    
                     <br></br>
                     <Card border="warning" bg = 'dark' >
                         <Card.Img variant="top" src={processImg7} />
                         <Card.Body>
-                            <Card.Title>Overview of my board in the Miro</Card.Title>
+                            <Card.Title>Overview of my board in the Figma</Card.Title>
                             <Card.Text>
                                 The miro platform is a great tool to draw or even gather all 
                                 ideas on one board, I use it for many things, like drawing, 
@@ -104,6 +106,20 @@ export const Processes = () =>{
                 </Col>
 
                 <Col>
+                <br></br>
+                <Card border="danger" bg = 'dark' >
+                        <Card.Img variant="top" src={processImg3} />
+                        <Card.Body>
+                            <Card.Title>Adjustments and banlancements within the engine</Card.Title>
+                            <Card.Text>
+                                Inside the game engine it is always good to check if 
+                                the systems are working properly, and also where I 
+                                perform the balancing, for example, setting values, 
+                                changing asset positions in the scene or even UI/UX adjustments.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <br></br>
                 <Card border="info" bg = 'dark' >
                         <Card.Img variant="top" src={processImg11} />
                         <Card.Body>
@@ -116,18 +132,7 @@ export const Processes = () =>{
                         </Card.Body>
                     </Card>
                     <br></br>
-                    <Card border="danger" bg = 'dark' >
-                        <Card.Img variant="top" src={processImg3} />
-                        <Card.Body>
-                            <Card.Title>Adjustments and banlancements within the engine</Card.Title>
-                            <Card.Text>
-                                Inside the game engine it is always good to check if 
-                                the systems are working properly, and also where I 
-                                perform the balancing, for example, setting values, 
-                                changing asset positions in the scene or even UI/UX adjustments.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                   
                     <br></br>
                     <Card border="success" bg = 'dark' >
                         <Card.Img variant="top" src={processImg9} />

@@ -54,34 +54,15 @@ export const Skills = () => {
     };
     return (
         <section className="skill" id="skills">
-            <Container>
+                <Container>
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>Skills</h2>
-                            <p>Skills throughout my career as a developer that I have learned by working, studying and developing games.</p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <div className="item">   
-                                    <img src={meter3} alt="Image"/>
-                                    <h5>Game Designer</h5>
-                                    <h6>Two years' experience</h6>
-                                </div>
-                                <div className="item">   
-                                    <img src={meter2} alt="Image"/>
-                                    <h5>Programmer</h5>
-                                    <h6>Two years' experience</h6>
-                                </div>
-                                <div className="item">   
-                                    <img src={meter1} alt="Image"/>
-                                    <h5>Screenwriter</h5>
-                                    <h6>One year experience</h6>
-                                </div>
-                                <div className="item">   
-                                    <img src={meter4} alt="Image"/>
-                                    <h5>Agile methodologies</h5>
-                                    <h6>Two years' experience</h6>
-                                </div>
-                            </Carousel>
+                            <h2>Game Designer</h2>
+                            <br></br>
+                            <p>♦ Project Concept Development: Creating ideas and concepts for new games, defining the vision and creative direction.</p>
+                            <p>♦ Mechanics Documentation in the GDD: Detailed elaboration of game mechanics in the Game Design Document, ensuring clarity and alignment within the development team.</p>
+                            <p>♦ Development Oversight: Actively working in game engines, conducting level design, adjusting gameplay parameters, and programming as needed.</p>
                         </div>
                     </Col>
                 </Row>
@@ -94,20 +75,39 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
+                            <h2>Programmer</h2>
+                            <br></br>
+                            <p>♦ Game Porting Experience: Worked on over five game porting projects for the three main platforms: Nintendo, Xbox, and PlayStation, ensuring seamless gameplay and performance across systems.</p>
+                            <p>♦ rogramming Skills: Proficient in C# and GML, leveraging this programming expertise to enhance my career as a Game Designer, effectively bridging the gap between design and implementation.</p>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <img className="background-image-left" src={colorSharp}/>
+            <Container>
+                <Row>
+                    <Col>
+                        <div className="skill-bx">
                            <Carousel responsive={responsiveLogo} infinite={true} className="skill-slider">
-                                <div className="logo">   
-                                    <img src={logo1} alt="Image"/>
-                                    <h5>C Sharp</h5>
-                                    <h6>Two years' experience</h6>
-                                </div>
                                 <div className="logo">   
                                     <img src={logo3} alt="Image" size/>
                                     <h5>Unity Engine</h5>
                                     <h6>Two years' experience</h6>
                                 </div>
+                                
+                                <div className="logo">   
+                                    <img src={logo1} alt="Image"/>
+                                    <h5>C Sharp</h5>
+                                    <h6>Two years' experience</h6>
+                                </div>
+                                
                                 <div className="logo">   
                                     <img src={logo5} alt="Image" size/>
-                                    <h5>GitHub</h5>
+                                    <h5>Git Technology</h5>
                                     <h6>Two years' experience</h6>
                                 </div>
                                 <div className="logo">   
@@ -115,10 +115,11 @@ export const Skills = () => {
                                     <h5>GameMaker Studio 2</h5>
                                     <h6>Two years' experience</h6>
                                 </div>
-                                <div className="logo">   
-                                    <img src={logo4} alt="Image" size/>
-                                    <h5>Construct</h5>
-                                    <h6>One year experience</h6>
+
+                                <div className="item">   
+                                    <img src={meter4} alt="Image"/>
+                                    <h5>Agile methodologies</h5>
+                                    <h6>Two years' experience</h6>
                                 </div>
                             </Carousel>
                         </div>

@@ -2,12 +2,15 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
 //Personal Portifolio images
-import personalProjImg1 from "../assets/img/personal-projects/project-img1.png";
-import personalProjImg2 from "../assets/img/personal-projects/project-img2.png";
-import personalProjImg3 from "../assets/img/personal-projects/project-img3.png";
-import personalProjImg4 from "../assets/img/personal-projects/project-img4.png";
-import personalProjImg5 from "../assets/img/personal-projects/project-img5.png";
-import personalProjImg6 from "../assets/img/personal-projects/project-img6.png";
+import bananitroImg from "../assets/img/personal-projects/Bananitro.png";
+import doomedToHellImg from "../assets/img/personal-projects/Doomed to Hell.png";
+import sensatosImg from "../assets/img/personal-projects/Sensatos.png";
+import miniDungeonImg from "../assets/img/personal-projects/Mini Dungeon.png";
+import raidersOfValhallaImg from "../assets/img/personal-projects/Raiders of Valhalla.png";
+import railwayIslandsImg from "../assets/img/personal-projects/Railway Islads.png";
+import jitsuSquadImg from "../assets/img/personal-projects/Jitsu Squad.png";
+import diceAssassinImg from "../assets/img/personal-projects/Dice Assasin.png";
+import kitingCatImg from "../assets/img/personal-projects/Kiting Cat.png";
 
 //Proficional Portifolio images
 import proficionalProjImg1 from "../assets/img/proficional-projects/project-img1.png";
@@ -36,40 +39,58 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const personalProjects = [
     {
-      title: "Torrois (Game Jam)",
-      description: "Game Design & Level Design, Working with the idea within the jam theme, creating puzzle levels and planning all the mechanics involved in the game.",
-      imgUrl: personalProjImg1,
-      link: "https://didiei3.itch.io/torrois", 
+      title: "Raiders of Valhalla (Game Designer)",
+      description: "As game designer, I wrote the complete GDD and developed essential systems such as the mission, skills, and forge systems. I also scripted the story, balanced the gameplay, and worked on implementing strategic mechanics inspired by the auto-battle genre.",
+      imgUrl: raidersOfValhallaImg,
+      link: "https://store.steampowered.com/app/2298620/Raiders_of_Valhalla/", 
     },
     {
-      title: "Sensatos (Developing)",
-      description: "Game Design, Screenwriter & C# Programming, Acting as the main game design, responsible for the mechanics, balance, game flow, juice etc. Writing the main story of the game and the characters and missions that involve them. Planning and programming minigames to include within the game.",
-      imgUrl: personalProjImg2,
-      link: "https://didiei3.itch.io/sensatos-invasao-a-colmeia", 
+      title: "Dice Assassin (Game Designer)",
+      description: "I was responsible for the design and balancing of the gameplay systems, combining dice-based mechanics with tactical movement and card-based actions. My work involved creating a strategic flow for the use of action cards, as well as designing enemy mechanics and dynamic combat encounters.",
+      imgUrl: diceAssassinImg,
+      link: "https://store.steampowered.com/app/2573470/Dice_Assassin/", 
     },
     {
-      title: "Guardado a sete chaves (Academic)",
-      description: "Game Design, C++ Programming, 2D Artist",
-      imgUrl: personalProjImg3,
-      link: "https://henrique-martins.itch.io/guardado-a-sete-chaves", 
-    },
-    {
-      title: "Sandalation Adventure (Game Jam)",
-      description: "Game Design & Level Design",
-      imgUrl: personalProjImg4,
-      link: "https://didiei3.itch.io/sandalations", 
-    },
-    {
-      title: "Minidungeon",
-      description: "Game Designer, game in progress.",
-      imgUrl: personalProjImg5,
+      title: "Kiting Cat (Game Designer)",
+      description: "I created the concept from start to finish for this Sokoban-style game that blends the genre with elements of Overcooked. The player’s objective is to combine ingredients by pushing a cart around the map to ultimately create recipes and deliver them to customers. I was the game designer on this project and developed all the levels, concepts, and mechanics.",
+      imgUrl: kitingCatImg,
       link: "", 
     },
     {
-      title: "Raposo",
-      description: "My first game",
-      imgUrl: personalProjImg6,
-      link: "https://victorbelarmino.itch.io/raposo-20", 
+      title: "Bananitro (Game Designer and Programmer)",
+      description: "Bananitro is a game I developed with friends for the Monkey Jam 2024, where it won first place. Currently, I am working on launching it on Steam as both Game Designer and Programmer. This project allowed me to showcase my skills in game design and programming while collaborating with a talented team to create a fun and engaging experience for players.",
+      imgUrl: bananitroImg,
+      link: "https://store.steampowered.com/app/3141340/Bananitro/", 
+    },
+    {
+      title: "Mini Dungeon (Game Designer)",
+      description: "A Unity project where I serve as the Game Designer. In this game, you play as an adventurer from the Mini Guild, tasked with cataloging various biomes, materials, weapons, and monsters. Completing the notebook unlocks forbidden areas filled with great dangers and rewards.",
+      imgUrl: miniDungeonImg,
+      link: "https://store.steampowered.com/app/3076740/Mini_Dungeon/", 
+    },
+    {
+      title: "Sensato's (Game Designer, Screenwriter)" ,
+      description: "A 2D shooting and stealth game developed in Unity where I serve as the Game Designer. In this top-down game, you take control of Jonas, a talented detective who goes above and beyond to solve his cases.",
+      imgUrl: sensatosImg,
+      link: "https://didiei3.itch.io/sensatos-invasao-a-colmeia-demo", 
+    },
+    {
+      title: "Railway Islands Puzzle (Porting Programmer)",
+      description: "I ported Railway Islands to consoles, which presented challenges as I had to configure the server for user-generated content (UGC) on each of the three platforms: PlayStation, Xbox, and Switch, in addition to working with multithreading in Unity.",
+      imgUrl: railwayIslandsImg,
+      link: "https://www.qubyteinteractive.com/games/Railway-Islands/", 
+    },
+    {
+      title: "Doomed to Hell (Porting Programmer)",
+      description: "I ported Doomed to Hell to PlayStation, Xbox, and Nintendo Switch. In this action-packed roguelike top-down shooter, players control Rose, battling through hordes of monsters and various biomes to escape hell. My work involved adapting the game for each platform while ensuring a seamless experience for players.",
+      imgUrl: doomedToHellImg,
+      link: "https://www.qubyteinteractive.com/games/doomed-to-hell/", 
+    },
+    {
+      title: "Jitsu Squad (Porting Programmer)",
+      description: "I ported Jitsu Squad to PS5, optimizing performance and enhancing the gameplay experience. This included improving graphics, controls, and loading times while maintaining the game's vibrant charm. This project further developed my skills in adapting games for new platforms, ensuring smooth and engaging battles for players.",
+      imgUrl: jitsuSquadImg,
+      link: "https://store.playstation.com/pt-br/product/UP8012-CUSA36310_00-JITSUSQUADPS4USX", 
     },
   ];
 
@@ -166,23 +187,14 @@ export const Projects = () => {
     <section className="project" id="projects">
       <Container>
         <Row>
-          <Col size={12}>
+          <Col size={24}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>In my career, I have participated in several projects, some acting as the main programmer, others as game designer and screenwriter, within these projects I have worked on personal projects, professional projects, game jams and third party projects.</p>
+                <p>In my career, I have worked as a Game Designer on various projects, taking on the primary role of designer. I have separated some projects where I contributed and provided a brief overview of my experience in each. The majority of these projects involved my role as Game Designer, but in some, I also served as a programmer.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Personal</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Professional</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Screenshots</Nav.Link>
-                    </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">

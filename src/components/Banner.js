@@ -10,7 +10,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Game Developer", "Game Designer"];
+    const toRotate = ["Game Designer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
@@ -26,9 +26,9 @@ export const Banner = () => {
     }, [text])
 
     const tick = () => {
-        let i = loopNum % toRotate.length;
-        let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+        //let i = loopNum % toRotate.length;
+        let fullText = toRotate[0];
+        let updatedText = fullText;
     
         setText(updatedText);
     
@@ -40,7 +40,7 @@ export const Banner = () => {
           setIsDeleting(true);
           setIndex(prevIndex => prevIndex - 1);
           setDelta(period);
-        } else if (isDeleting && updatedText === 'G') {
+        } else if (isDeleting && updatedText === 'N') {
           setIsDeleting(false);
           setLoopNum(loopNum + 1);
           setIndex(1);
@@ -61,8 +61,8 @@ export const Banner = () => {
                           <div className={isVisible ? "animate__animated animate_fadeIn" : ""}>
                             <span className="tagline">Welcome to my Portfolio</span>
                             <h1>{`Hello I'm Victor `}<br/><span className="wrap">{text}</span></h1>
-                            <p>I love games and how they are made, I graduated in Digital Games and worked for a while on porting games to consoles, and now I am focused on developing my own projects, actively working on their Game Design, Scripting and Programming.</p>
-                            <button>{() => console.log('connect')}Lets Start<ArrowRightCircle size={25}></ArrowRightCircle></button>
+                            <p>I am a Game Designer with over two years of experience working on commercial projects for platforms like Steam, Xbox, PlayStation, and Nintendo Switch. I specialize in prototyping, game design documentation (GDD), mechanics design, and gameplay balancing. With strong skills in Unity 3D and GameMaker Studio 2, I also have experience in porting games to consoles and am focused on continuous learning and improvement.</p>
+                            {/* <button>{() => console.log('connect')}Lets Start<ArrowRightCircle size={25}></ArrowRightCircle></button> */}
                           </div>}
                         </TrackVisibility>
                     </Col>
