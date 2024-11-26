@@ -78,7 +78,7 @@ export const Skills = () => {
                             <h2>Programmer</h2>
                             <br></br>
                             <p>♦ Game Porting Experience: Worked on over five game porting projects for the three main platforms: Nintendo, Xbox, and PlayStation, ensuring seamless gameplay and performance across systems.</p>
-                            <p>♦ rogramming Skills: Proficient in C# and GML, leveraging this programming expertise to enhance my career as a Game Designer, effectively bridging the gap between design and implementation.</p>
+                            <p>♦ Programming Skills: Proficient in C# and GML, leveraging this programming expertise to enhance my career as a Game Designer, effectively bridging the gap between design and implementation.</p>
                         </div>
                     </Col>
                 </Row>
